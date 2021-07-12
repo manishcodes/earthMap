@@ -11,16 +11,13 @@
   </head>
   <body>
     <!-- <model-viewer> HTML element -->
-    <model-viewer src="earth.glb" camera-controls exposure="0.95" shadow-intensity="7.7" shadow-softness="0.19" camera-orbit="-119.4deg 59.74deg 877.5m" min-camera-orbit="auto auto auto" max-camera-orbit="auto auto 877.5m" ar ar-modes="webxr scene-viewer quick-look">
-      <button class="Hotspot" slot="hotspot-1" data-position="-175.30123615755673m 6029.487050432447m 77.64807154490717m" data-normal="-0.019910223660785584m 0.9997066102051206m 0.013794075031132773m" data-visibility-attribute="visible">
-          <div class="HotspotAnnotation">Bunglow</div>
-      </button><button class="Hotspot" slot="hotspot-2" data-position="-74.35758653316617m 6040.469934057617m 121.41209721764771m" data-normal="-0.15915217931545037m 0.9690562613689646m 0.18868106985266853m" data-visibility-attribute="visible">
-          <div class="HotspotAnnotation">Home</div>
-      </button>
-      <button slot="ar-button" id="ar-button">
-          View in your space
-      </button>
-    </model-viewer>  
+    <model-viewer src="earth.glb" camera-controls exposure="0.95" shadow-intensity="7.7" shadow-softness="0.19" camera-orbit="-119.4deg 59.74deg 877.5m" min-camera-orbit="auto auto auto" max-camera-orbit="auto auto 877.5m" ar-modes="webxr scene-viewer quick-look">
+    <button class="Hotspot" slot="hotspot-1" data-position="-175.30123615755673m 6029.487050432447m 77.64807154490717m" data-normal="-0.019910223660785584m 0.9997066102051206m 0.013794075031132773m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Bunglow</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="-74.35758653316617m 6040.469934057617m 121.41209721764771m" data-normal="-0.15915217931545037m 0.9690562613689646m 0.18868106985266853m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Home</div>
+    </button>
+</model-viewer>  
     <!-- Loads <model-viewer> for browsers: -->
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
   </body>
